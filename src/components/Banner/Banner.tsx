@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Banner.css';
+import BannerImage from '../../assets/main-banner.png'; // Certifique-se de que o caminho está correto
 
 function Banner() {
   return (
-    <div>Banner</div>
+    <section className="banner">
+      <img src={BannerImage} alt="Banner da Agência" />
+    </section>
   )
 }
 

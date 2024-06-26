@@ -1,0 +1,53 @@
+/* src/components/Marketing/Marketing.css */
+.marketing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(30,58,138,1) 0%, rgba(30,58,138,1) 35%, rgba(243,244,246,1) 100%);
+}
+
+.content-mkt {
+    width: 80%;
+}
+
+.marketing-title {
+  text-align: right;  font-size: 70pt;
+  color: #f3f4f6;
+  font-weight: bold;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card {
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+}
